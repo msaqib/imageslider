@@ -1,0 +1,42 @@
+*, ::before, ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+    text-align: center;
+    margin: 10px 0;
+}
+.centered {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+#slider {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    display: flex;
+}
+
+#slider img {
+    width: 100%;
+    transition: transform 1s ease;
+}
+
+.centered .btn-bar {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
