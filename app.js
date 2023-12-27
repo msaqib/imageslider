@@ -22,7 +22,7 @@ function loadImages() {
 
 function showSlide() {
     images.forEach( img => {
-        img.style.transform = `translateX(-${(imageNumber - 1) * 600}px)`
+        img.style.transform = `translateX(-${(imageNumber - 1) * 100}%)`
     })
 }
 
